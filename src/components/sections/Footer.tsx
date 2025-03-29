@@ -46,7 +46,7 @@ export const Footer = () => {
         </a>
       </div>
       <div className="border-t border-[#1A1A24] pt-6 text-white text-[0.9rem]">
-        <p>© 2024 ZORT. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} ZORT. All rights reserved.</p>
       </div>
     </footer>
   );
