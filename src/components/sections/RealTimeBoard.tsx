@@ -50,7 +50,7 @@ export const RealTimeBoard = () => {
   };
 
   return (
-    <div className="py-16 px-[10%] bg-black">
+    <div className="py-8 px-[5%] md:py-16 md:px-[10%] bg-black">
       <h2 className="text-[2.5rem] font-bold mb-12 text-center bg-gradient-to-r from-cyan-400 to-blue-500 text-transparent bg-clip-text">
         Real-Time Analytics Dashboards
       </h2>
