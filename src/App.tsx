@@ -7,9 +7,12 @@ import { Support } from "./components/sections/Support";
 import { Footer } from "./components/sections/Footer";
 import { StatsTicker } from "./components/ui/StatsTicker";
 
+import { ReactLenis } from "lenis/react";
+
 function App() {
+
   return (
-    <>
+    <ReactLenis root>
       <NavBar />
       <Hero />
       <RealTimeBoard />
@@ -18,7 +21,7 @@ function App() {
       <Support />
       <Footer />
       <StatsTicker />
-    </>
+    </ReactLenis>
   );
 }
 
