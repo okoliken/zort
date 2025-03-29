@@ -48,7 +48,7 @@ export const NavBar = () => {
         </div>
         <a
           href="https://apps.apple.com/gb/app/zort/id6740245454"
-          className="bg-[#4169E1] inline-flex items-center py-3 px-6 text-white rounded-lg font-medium hover:bg-[#3154c4] transition-all ease-linear duration-[0.3s]"
+          className="bg-[#4169E1] inline-flex items-center py-2 px-4 md:py-3 md:px-6 text-white rounded-lg font-medium hover:bg-[#3154c4] transition-all ease-linear duration-[0.3s] text-[0.9rem"
         >
           Download App
         </a>
